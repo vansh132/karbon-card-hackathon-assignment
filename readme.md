@@ -1,5 +1,11 @@
 # Karbon Hackathon Assignment
 
+# Deployed on: https://karbon-card-hackathon-assignment.vercel.app/
+
+# Front-end: Vercel
+
+# Backe-end: Render
+
 # Author
 
 Name: Vansh Shah <Br>
