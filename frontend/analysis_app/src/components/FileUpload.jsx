@@ -28,6 +28,7 @@ const FileUpload = () => {
         {
           method: "POST",
           body: formData,
+          mode: "no-cors",
         }
       );
       const data = await response.json();
