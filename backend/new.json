@@ -1,0 +1,118 @@
+{
+    "year": "2022-03-31",
+    "nature": "STANDALONE",
+    "stated_on": "2022-03-31",
+    "filing_type": "E_FORM",
+    "filing_standard": "Schedule III",
+    "bs": {
+        "assets": {
+            "tangible_assets": 71440,
+            "producing_properties": null,
+            "intangible_assets": 1351310,
+            "preproducing_properties": null,
+            "tangible_assets_capital_work_in_progress": 0,
+            "intangible_assets_under_development": 0,
+            "noncurrent_investments": 674280,
+            "deferred_tax_assets_net": 0,
+            "foreign_curr_monetary_item_trans_diff_asset_account": null,
+            "long_term_loans_and_advances": 0,
+            "other_noncurrent_assets": 0,
+            "current_investments": 0,
+            "inventories": 0,
+            "trade_receivables": 517220,
+            "cash_and_bank_balances": 400330,
+            "short_term_loans_and_advances": 0,
+            "other_current_assets": 5170,
+            "given_assets_total": 3019750
+        },
+        "liabilities": {
+            "share_capital": 1179760,
+            "reserves_and_surplus": -1486960,
+            "money_received_against_share_warrants": 0,
+            "share_application_money_pending_allotment": 0,
+            "deferred_government_grants": null,
+            "minority_interest": null,
+            "liabilities": 0,
+            "deferred_tax_liabilities_net": 24810,
+            "foreign_curr_monetary_item_trans_diff_liability_account": null,
+            "other_long_term_liabilities": 0,
+            "long_term_provisions": 0,
+            "short_term_borrowings": 2560050,
+            "trade_payables": 245510,
+            "other_current_liabilities": 472150,
+            "short_term_provisions": 24430,
+            "given_liabilities_total": 3019750
+        },
+        "subTotals": {
+            "total_equity": -307200,
+            "total_non_current_liabilities": 24810,
+            "total_current_liabilities": 3302140,
+            "net_fixed_assets": 1422750,
+            "total_current_assets": 922720,
+            "capital_wip": 0,
+            "total_debt": 2560050,
+            "total_other_non_current_assets": 674280
+        },
+        "metadata": {
+            "doc_id": "25/U72200KA2014PTC076178/mca/AnnualReturnsEform/a9d53ff78be1eade8d105f583249e42fv1.pdf"
+        },
+        "notes": {
+            "gross_fixed_assets": 2463250,
+            "trade_receivable_exceeding_six_months": 0
+        }
+    },
+    "pnl": {
+        "lineItems": {
+            "net_revenue": 6717840,
+            "total_cost_of_materials_consumed": 3696010,
+            "total_purchases_of_stock_in_trade": 0,
+            "total_changes_in_inventories_or_finished_goods": 0,
+            "total_employee_benefit_expense": 530470,
+            "total_other_expenses": 1891650,
+            "operating_profit": 599710,
+            "other_income": 14370,
+            "depreciation": 474270,
+            "profit_before_interest_and_tax": 139810,
+            "interest": 0,
+            "profit_before_tax_and_exceptional_items_before_tax": 139810,
+            "exceptional_items_before_tax": 0,
+            "profit_before_tax": 139810,
+            "income_tax": 48330,
+            "profit_for_period_from_continuing_operations": 91480,
+            "profit_from_discontinuing_operation_after_tax": 0,
+            "minority_interest_and_profit_from_associates_and_joint_ventures": null,
+            "profit_after_tax": 91480
+        },
+        "subTotals": {
+            "total_operating_cost": 6118130
+        },
+        "revenue_breakup": {
+            "sale_of_goods_manufactured_domestic": 0,
+            "sale_of_goods_traded_domestic": 0,
+            "sale_or_supply_of_services_domestic": 4254660,
+            "sale_of_goods_manufactured_export": 0,
+            "sale_of_goods_traded_export": 0,
+            "sale_or_supply_of_services_export": 2463180
+        },
+        "depreciation_breakup": {
+            "depreciation_and_amortization": 474270
+        },
+        "metadata": {
+            "docId": "25/U72200KA2014PTC076178/mca/AnnualReturnsEform/a9d53ff78be1eade8d105f583249e42fv1.pdf"
+        }
+    },
+    "auditor": {
+        "auditor_name": "RAVALA MADHUKAR REDDY",
+        "auditor_firm_name": "RAVALA & ASSOCIATES",
+        "pan": "werwe",
+        "membership_number": "238843",
+        "firm_registration_number": "019599S",
+        "address": "2-250-B/1 R.R.Residency, 1st Floor near LIC office.Kadri Road, Reddys colony Madanpalle AP IN 517325"
+    },
+    "auditor_comments": {
+        "report_has_adverse_remarks": false,
+        "disclosures_auditor_report": [],
+        "disclosures_director_report": []
+    },
+    "auditor_additional": null
+}
