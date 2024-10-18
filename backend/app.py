@@ -9,7 +9,7 @@ app.config["FRONTEND_URL"] = "http://localhost:3000"
 # CORS configuration
 CORS(
     app,
-    origins=[app.config["FRONTEND_URL"], "http://localhost:5173"],
+    origins=[app.config["FRONTEND_URL"], "https://karbon-card-hackathon-assignment.vercel.app/"],
     supports_credentials=True,
 )
 
