@@ -4,6 +4,7 @@ const FileUpload = () => {
   const [file, setFile] = useState(null);
   const [results, setResults] = useState(null);
   const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false); // Add loading state
 
   const handleFileChange = (event) => {
     setFile(event.target.files[0]);
@@ -22,6 +23,8 @@ const FileUpload = () => {
     const formData = new FormData();
     formData.append("file", file);
 
+    setLoading(true); // Set loading to true
+
     try {
       const response = await fetch(
         "https://karbon-assignment-backend.onrender.com/probe",
@@ -31,6 +34,8 @@ const FileUpload = () => {
         }
       );
       const data = await response.json();
+
+      setLoading(false); // Set loading to false
 
       if (response.ok) {
         // Extract flags and format them
@@ -46,6 +51,7 @@ const FileUpload = () => {
         setResults(null);
       }
     } catch (error) {
+      setLoading(false); // Ensure loading is false on error
       setError("An error occurred while uploading the file.");
       setResults(null);
     }
@@ -57,9 +63,9 @@ const FileUpload = () => {
         padding: "20px",
         maxWidth: "600px",
         margin: "0 auto",
-        backgroundColor: "#f0f0f0", // Light gray background
+        backgroundColor: "#f0f0f0",
         borderRadius: "8px",
-        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // Subtle shadow for depth
+        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
       }}
     >
       <h2 style={{ textAlign: "center", color: "#333" }}>
@@ -74,7 +80,7 @@ const FileUpload = () => {
             padding: "10px",
             borderRadius: "4px",
             border: "1px solid #ccc",
-            width: "calc(100% - 110px)", // Adjusting width for button
+            width: "calc(100% - 110px)",
           }}
         />
         <button
@@ -82,7 +88,7 @@ const FileUpload = () => {
           style={{
             marginLeft: "10px",
             padding: "10px 15px",
-            backgroundColor: "#007bff", // Bootstrap primary color
+            backgroundColor: "#007bff",
             color: "white",
             border: "none",
             borderRadius: "4px",
@@ -95,10 +101,19 @@ const FileUpload = () => {
           Submit
         </button>
       </form>
+
+      {loading && (
+        <div
+          style={{ textAlign: "center", color: "#007bff", margin: "10px 0" }}
+        >
+          Loading...
+        </div>
+      )}
+
       {results && (
         <div
           style={{
-            backgroundColor: "#1c1c1c", // Dark background for results
+            backgroundColor: "#1c1c1c",
             padding: "15px",
             borderRadius: "5px",
           }}
