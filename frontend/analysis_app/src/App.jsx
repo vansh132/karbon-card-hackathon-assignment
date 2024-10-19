@@ -9,6 +9,8 @@ function App() {
       <h1>Karbon Card Hackathon Assignment</h1>
       <h5>by Vansh (2347152)</h5>
       <FileUpload />
+      <h5>Note: Please wait for 50 seconds to get response</h5>
+      <h5>Since, server is deployed on free tier of Render platform</h5>
     </>
   );
 }
